@@ -1,0 +1,38 @@
+[for="read_more_activate_resume"]:hover
+{
+	width: 30%;
+	box-shadow: 0 0 .01em .01em #white;
+	text-align: center;
+	color: #1A212C;
+	background: white;
+	background-clip: content-box;
+	border-radius: .2em;
+	position: absolute;
+	left: 35%;
+	font-size: .45em;
+	transition: background 3s, color 4s;
+
+
+}
+
+/*show more/less button*/
+[for="read_more_activate_resume"] span:last-child
+{
+	display: none;
+	visibility: hidden;
+	width: 100%;
+}
+
+/*show more button*/
+input[type=checkbox]:checked ~ [for="read_more_activate_resume"] span:first-child
+{
+	display: none;
+	visibility: hidden;
+}
+/*show less button*/
+input[type=checkbox]:checked ~ [for="read_more_activate_resume"] span:last-child
+{
+	display: block;
+	visibility: visible;
+}
+

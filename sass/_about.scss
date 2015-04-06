@@ -1,0 +1,26 @@
+
+[for="read_more_activate"]:hover
+{
+	width: 30%;
+	box-shadow: 0 0 .01em .01em #white;
+	text-align: center;
+	color: #D13F32;
+	background: white;
+	background-clip: content-box;
+	border-radius: .2em;
+	position: absolute;
+	left: 35%;
+	font-size: .45em;
+	transition: background 3s, color 4s;
+
+
+}
+
+
+
+input[type=checkbox]:checked ~ section
+{
+	display: block;
+	visibility: visible;
+
+}
