@@ -452,9 +452,35 @@ img[alt="banner"] {
 img[alt="icon_sprite"] {
   width: 80%; }
 
-.icon_twitter {
-  background-image: url("../images/flaticons.png");
-  background-position: 0 5000px; }
+#icon_twitter {
+  display: block;
+  width: 179.55px;
+  height: 179.54px;
+  background-image: url("../images/flaticons.svg");
+  background-position: 0 0px; }
+
+.twitter_action {
+  background: #65ccef; }
+
+#icon_facebook {
+  display: block;
+  width: 179.55px;
+  height: 179.54px;
+  background-image: url("../images/flaticons.svg");
+  background-position: 359.1px 0px; }
+
+.facebook_action {
+  background: #517cbe; }
+
+#icon_linkedin {
+  display: block;
+  width: 179.55px;
+  height: 179.54px;
+  background-image: url("../images/flaticons.svg");
+  background-position: 718.12px 0px; }
+
+.linkedin_action {
+  background: #91c9db; }
 
 [for="read_more_activate"]:hover {
   width: 30%;
