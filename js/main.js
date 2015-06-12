@@ -7,7 +7,7 @@ $(document).ready(function(){
 	});
 	$(".about_buttonU").click(function(){
 		$(".about").animate({height: '10vh'});
-		$(".about section").slideUp();
+		$(".about section").slideUp(500);
 	});
 	//work button show more/less
 	$(".works_buttonD").click(function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
 	});
 	$(".works_buttonU").click(function(){
 		$(".works").animate({height: '10vh'});
-		$(".works section").slideUp();
+		$(".works section").slideUp(500);
 	});
 	//resume button show more/less
 	$(".resume_buttonD").click(function(){
@@ -25,6 +25,6 @@ $(document).ready(function(){
 	});
 	$(".resume_buttonU").click(function(){
 		$(".resume").animate({height: '10vh'});
-		$(".resume section").slideUp();
+		$(".resume section").slideUp(500);
 	});
 });

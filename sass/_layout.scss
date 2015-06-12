@@ -5,34 +5,48 @@ html, body
 	height: 100vh;
 }
 
-div{
-	float: left;
-}
-
-.intro{
+.intro
+{
 	background: transparent;
 	height:5vh;
 	width: 100vw;
+	padding-bottom: 1.5%;
 }
 
-.about, .works, .resume{
+.about, .works, .resume
+{
 	height: 10vh;
 	width: 100vw;
 	text-align: center;
-	padding: 1.5% 0 1.5% 0;
+	padding: 1.5% 0 2.5% 0;
 	float: left;
 }
 
-section{
+section
+{
 	height: 100%;
 	max-height: 100%;
 	display: none;
-
 }
+
+button
+{
+	border: solid white 0.1em;
+	background: transparent;
+	border-radius: 20%;
+}
+
+button:hover
+{
+	color: white;
+	transition: background 2s, color 4s;
+	cursor: pointer;
+}
+/*background colors for each section*/
 .about{background: #D13F32;}
-
 .resume{background: #1A212C;}
-
 .works{background: #71B095;}
+
+
 
 

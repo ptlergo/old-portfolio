@@ -364,19 +364,17 @@ html, body {
   width: 100vw;
   height: 100vh; }
 
-div {
-  float: left; }
-
 .intro {
   background: transparent;
   height: 5vh;
-  width: 100vw; }
+  width: 100vw;
+  padding-bottom: 1.5%; }
 
 .about, .works, .resume {
   height: 10vh;
   width: 100vw;
   text-align: center;
-  padding: 1.5% 0 1.5% 0;
+  padding: 1.5% 0 2.5% 0;
   float: left; }
 
 section {
@@ -384,6 +382,17 @@ section {
   max-height: 100%;
   display: none; }
 
+button {
+  border: solid white 0.1em;
+  background: transparent;
+  border-radius: 20%; }
+
+button:hover {
+  color: white;
+  transition: background 2s, color 4s;
+  cursor: pointer; }
+
+/*background colors for each section*/
 .about {
   background: #D13F32; }
 
@@ -394,7 +403,8 @@ section {
   background: #71B095; }
 
 html {
-  font-family: 'Varela Round', sans-serif, futura; }
+  font-family: 'Varela Round', sans-serif, futura;
+  font-size: 1.8vw; }
 
 h1 {
   color: #ffffff;
@@ -403,7 +413,7 @@ h1 {
 .intro h2 {
   color: #1A212C;
   font-style: italic;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
   text-align: center; }
 
 /*p{
@@ -412,53 +422,31 @@ h1 {
 	margin: 3% auto;
 	text-align: center;
 }*/
+/*banner .hello{}*/
 img[alt="banner"] {
   width: 100%;
   height: 100%; }
 
-img[alt="icon_sprite"] {
-  max-width: 100%; }
+img[alt="sprite"] {
+  width: 90%;
+  height: 90%;
+  padding-top: 1.7%; }
 
-/*#icon_twitter
-{	
-	float: left;
-	width:1440px;
-	height: 479.971px;
-	background-image: url('../images/flaticons.svg');
-	background-position: 0 0px;	
+.sprite {
+  width: 33.3vw;
+  float: left;
+  height: 27vh;
+  margin: 0 auto; }
 
-}
+.twitter_action {
+  background: #65ccef; }
 
-.twitter_action{
-	background: #65ccef;
-}
-*/
-/*#icon_facebook
-{	
-	float: left;
-	width:1500px;
-	height: 500px;
-	background-image: url('../images/flaticons.svg');
-	background-position: 359.1px 0px;	
+.facebook_action {
+  background: #517cbe; }
 
-}
-.facebook_action{
-	background: #517cbe;
-}
+.linkedin_action {
+  background: #91c9db; }
 
-#icon_linkedin
-{	
-	float: left;
-	width:1500px;
-	height: 500px;
-	background-image: url('../images/flaticons.svg');
-	background-position: 718.12px 0px;	
-
-}
-.linkedin_action{
-	background: #91c9db;
-}
-*/
 /*@import "about";
 @import "works";
 @import "resume";*/
