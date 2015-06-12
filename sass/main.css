@@ -428,14 +428,14 @@ img[alt="banner"] {
   height: 100%; }
 
 img[alt="sprite"] {
-  width: 90%;
-  height: 90%;
-  padding-top: 1.7%; }
+  width: 70%;
+  height: 70%;
+  padding: 3% 0 3% 0; }
 
 .sprite {
   width: 33.3vw;
   float: left;
-  height: 17vh;
+  height: 13vh;
   margin: 0 auto; }
 
 .twitter_action {
