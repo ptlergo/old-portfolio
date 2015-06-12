@@ -408,7 +408,7 @@ html {
 
 h1 {
   color: #ffffff;
-  font-size: 3vw; }
+  font-size: 5vw; }
 
 .intro h2 {
   color: #1A212C;
@@ -435,8 +435,7 @@ img[alt="sprite"] {
 .sprite {
   width: 33.3vw;
   float: left;
-  height: 13vh;
-  margin: 0 auto; }
+  height: 13vh; }
 
 .twitter_action {
   background: #65ccef; }
