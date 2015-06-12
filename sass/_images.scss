@@ -1,12 +1,14 @@
 /*banner .hello{}*/
 img[alt="banner"]{width: 100%; height: 100%;}
-img[alt="sprite"]{width: 70%; height: 70%; padding: 3% 0 3% 0;}
+img[alt="sprite"]{width: 60%; height: 60%; padding: 3% 0 3% 0; margin-left: 20%;}
 
 .sprite
 {
 	width: 33.3vw;
 	float: left;
 	height: 13vh;
+	margin: 0 auto;
+
 }
 
 .twitter_action
