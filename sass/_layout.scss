@@ -20,63 +20,19 @@ div{
 	width: 100vw;
 	text-align: center;
 	padding: 1.5% 0 1.5% 0;
+	float: left;
 }
 
+section{
+	height: 100%;
+	max-height: 100%;
+	display: none;
+
+}
 .about{background: #D13F32;}
 
 .resume{background: #1A212C;}
 
 .works{background: #71B095;}
-
-
-section {
-	display: none;
-	visibility: hidden;
-}
-
-/*hide check box*/
-input[type=checkbox]
-{
-	visibility: hidden;
-}
-
-/*show more/less button*/
-[for="read_more_activate"] span:last-child
-{
-	display: none;
-	visibility: hidden;
-	width: 100%;
-
-}
-
-/*show more/less button style*/
-[for="read_more_activate"],[for="read_more_activate_works"], [for="read_more_activate_resume"]
-{
-	width: 30%;
-	box-shadow: 0 0 .02em .02em white;
-	text-align: center;
-	padding: .1em;
-	border-radius: .2em;
-	position: absolute;
-	left: 35%;
-	font-size: .45em;
-	transition: background 2s, color 4s;
-	cursor: pointer;
-
-
-}
-
-/*show more button*/
-input[type=checkbox]:checked ~ [for="read_more_activate"] span:first-child
-{
-	display: none;
-	visibility: hidden;
-}
-/*show less button*/
-input[type=checkbox]:checked ~ [for="read_more_activate"] span:last-child
-{
-	display: block;
-	visibility: visible;
-}
 
 

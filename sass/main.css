@@ -376,7 +376,13 @@ div {
   height: 10vh;
   width: 100vw;
   text-align: center;
-  padding: 1.5% 0 1.5% 0; }
+  padding: 1.5% 0 1.5% 0;
+  float: left; }
+
+section {
+  height: 100%;
+  max-height: 100%;
+  display: none; }
 
 .about {
   background: #D13F32; }
@@ -386,43 +392,6 @@ div {
 
 .works {
   background: #71B095; }
-
-section {
-  display: none;
-  visibility: hidden; }
-
-/*hide check box*/
-input[type=checkbox] {
-  visibility: hidden; }
-
-/*show more/less button*/
-[for="read_more_activate"] span:last-child {
-  display: none;
-  visibility: hidden;
-  width: 100%; }
-
-/*show more/less button style*/
-[for="read_more_activate"], [for="read_more_activate_works"], [for="read_more_activate_resume"] {
-  width: 30%;
-  box-shadow: 0 0 .02em .02em white;
-  text-align: center;
-  padding: .1em;
-  border-radius: .2em;
-  position: absolute;
-  left: 35%;
-  font-size: .45em;
-  transition: background 2s, color 4s;
-  cursor: pointer; }
-
-/*show more button*/
-input[type=checkbox]:checked ~ [for="read_more_activate"] span:first-child {
-  display: none;
-  visibility: hidden; }
-
-/*show less button*/
-input[type=checkbox]:checked ~ [for="read_more_activate"] span:last-child {
-  display: block;
-  visibility: visible; }
 
 html {
   font-family: 'Varela Round', sans-serif, futura; }
@@ -437,12 +406,12 @@ h1 {
   font-size: 1.4vw;
   text-align: center; }
 
-p {
-  font-size: .47em;
-  width: 70%;
-  margin: 3% auto;
-  text-align: center; }
-
+/*p{
+	font-size: .47em;
+	width: 70%;
+	margin: 3% auto;
+	text-align: center;
+}*/
 img[alt="banner"] {
   width: 100%;
   height: 100%; }
@@ -490,79 +459,8 @@ img[alt="icon_sprite"] {
 	background: #91c9db;
 }
 */
-[for="read_more_activate"]:hover {
-  width: 30%;
-  box-shadow: 0 0 0.01em 0.01em #white;
-  text-align: center;
-  color: #D13F32;
-  background: white;
-  background-clip: content-box;
-  border-radius: .2em;
-  position: absolute;
-  left: 35%;
-  font-size: .45em;
-  transition: background 3s, color 4s; }
-
-input[type=checkbox]:checked ~ section {
-  display: block;
-  visibility: visible; }
-
-[for="read_more_activate_works"]:hover {
-  width: 30%;
-  box-shadow: 0 0 0.01em 0.01em #white;
-  text-align: center;
-  color: #71B095;
-  background: white;
-  background-clip: content-box;
-  border-radius: .2em;
-  position: absolute;
-  left: 35%;
-  font-size: .45em;
-  transition: background 3s, color 4s; }
-
-/*show more/less button*/
-[for="read_more_activate_works"] span:last-child {
-  display: none;
-  visibility: hidden;
-  width: 100%; }
-
-/*show more button*/
-input[type=checkbox]:checked ~ [for="read_more_activate_works"] span:first-child {
-  display: none;
-  visibility: hidden; }
-
-/*show less button*/
-input[type=checkbox]:checked ~ [for="read_more_activate_works"] span:last-child {
-  display: block;
-  visibility: visible; }
-
-[for="read_more_activate_resume"]:hover {
-  width: 30%;
-  box-shadow: 0 0 0.01em 0.01em #white;
-  text-align: center;
-  color: #1A212C;
-  background: white;
-  background-clip: content-box;
-  border-radius: .2em;
-  position: absolute;
-  left: 35%;
-  font-size: .45em;
-  transition: background 3s, color 4s; }
-
-/*show more/less button*/
-[for="read_more_activate_resume"] span:last-child {
-  display: none;
-  visibility: hidden;
-  width: 100%; }
-
-/*show more button*/
-input[type=checkbox]:checked ~ [for="read_more_activate_resume"] span:first-child {
-  display: none;
-  visibility: hidden; }
-
-/*show less button*/
-input[type=checkbox]:checked ~ [for="read_more_activate_resume"] span:last-child {
-  display: block;
-  visibility: visible; }
+/*@import "about";
+@import "works";
+@import "resume";*/
 
 /*# sourceMappingURL=main.css.map */
