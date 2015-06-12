@@ -1,23 +1,24 @@
 html
 {
 	background: #F2AB25; 
+	width: 100vw;
 }
-
+div{
+	float: left;
+}
 .intro
 {
 	background: #F2AB25;
-	text-align: center;
-	margin-top: -2%;
-	height: 2.8em;
-	color: #1A212C;
-	
+	height: 2vh;
 }
+
 
 
 
 .about, .works, .resume
 {
-	height: 180%;
+	height: 13vh;
+	width: 100vw;
 	text-align: center;
 	padding-top: 3%;
 }

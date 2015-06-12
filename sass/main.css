@@ -360,17 +360,19 @@ th {
   padding: 0; }
 
 html {
-  background: #F2AB25; }
+  background: #F2AB25;
+  width: 100vw; }
+
+div {
+  float: left; }
 
 .intro {
   background: #F2AB25;
-  text-align: center;
-  margin-top: -2%;
-  height: 2.8em;
-  color: #1A212C; }
+  height: 2vh; }
 
 .about, .works, .resume {
-  height: 180%;
+  height: 13vh;
+  width: 100vw;
   text-align: center;
   padding-top: 3%; }
 
@@ -429,11 +431,12 @@ html {
 h1 {
   color: white; }
 
-h2 {
+.intro h2 {
   padding-top: 2%;
-  font-size: .65em;
-  margin: 0;
-  font-style: italic; }
+  margin: 0 auto;
+  color: #1A212C;
+  font-style: italic;
+  font-width: 100%; }
 
 p {
   font-size: .47em;
@@ -455,7 +458,7 @@ img[alt="icon_sprite"] {
 #icon_twitter {
   float: left;
   width: 1440px;
-  height: 500px;
+  height: 479.971px;
   background-image: url("../images/flaticons.svg");
   background-position: 0 0px; }
 
