@@ -1,50 +1,35 @@
-html
+html, body
 {
 	background: #F2AB25; 
 	width: 100vw;
+	height: 100vh;
 }
+
 div{
 	float: left;
 }
-.intro
-{
-	background: #F2AB25;
-	height: 2vh;
+
+.intro{
+	background: transparent;
+	height:5vh;
+	width: 100vw;
 }
 
-
-
-
-.about, .works, .resume
-{
-	height: 13vh;
+.about, .works, .resume{
+	height: 10vh;
 	width: 100vw;
 	text-align: center;
-	padding-top: 3%;
+	padding: 1.5% 0 1.5% 0;
 }
 
-footer
-{
-	text-align: center;
-}
-.about
-{
-	background: #D13F32;
-}
+.about{background: #D13F32;}
 
-.resume
-{
-	background: #1A212C;
-}
+.resume{background: #1A212C;}
 
-.works
-{
-	background: #71B095;
-}
+.works{background: #71B095;}
 
 
-section 
-{
+section {
 	display: none;
 	visibility: hidden;
 }
