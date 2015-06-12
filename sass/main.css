@@ -455,16 +455,20 @@ img[alt="banner"] {
 img[alt="icon_sprite"] {
   max-width: 100%; }
 
-#icon_twitter {
-  float: left;
-  width: 1440px;
-  height: 479.971px;
-  background-image: url("../images/flaticons.svg");
-  background-position: 0 0px; }
+/*#icon_twitter
+{	
+	float: left;
+	width:1440px;
+	height: 479.971px;
+	background-image: url('../images/flaticons.svg');
+	background-position: 0 0px;	
 
-.twitter_action {
-  background: #65ccef; }
+}
 
+.twitter_action{
+	background: #65ccef;
+}
+*/
 /*#icon_facebook
 {	
 	float: left;
